@@ -1,6 +1,4 @@
 // JavaScript source code
-const axios = require("axios");
-
 const options = {
     method: 'GET',
     url: 'https://golf-leaderboard-data.p.rapidapi.com/world-rankings',
