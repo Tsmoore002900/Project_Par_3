@@ -6,10 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <title>Pro Golfs Best and The Rest</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.2.1/chart.min.js"
-    
-    <!--D3-->
-    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+
+  <!---  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.2.1/chart.min.js"
+
+
+    <script src="https://d3js.org/d3.v5.min.js"> -->
+
 </head>
 <body>
     <div class="jumbotron" style="text-align:center">
@@ -23,47 +26,26 @@
               transition: background-color 300ms;"
              src="https://thumbs.dreamstime.com/b/golf-ball-tee-golf-green-course-background-golf-ball-tee-golf-green-course-background-copy-space-129974760.jpg">
     </div>
-    <canvas id="chart" width="400" height="400"></canvas>
-   
-        
-        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="http://localhost:8888/edit/merged_golf_data.json"></script>
+    <script src="http://localhost:8888/edit/static/js/app.js"></script>
+    <script src="http://localhost:8888/edit/static/js/dropdown.js"></script>
 
-    <script>
-        const xlabels = [];
-        chartIt();
-        async function chartIt() {
-            const data = await get data('test_golf_data_2.json');
-            const ctx = document.getElementById('chart').getContext(2d);
-            const myChart = new Chart(ctx, {
-                type: 'bar',
-                data: {
-                    labels: (name, Response)
-                    datasets:
-                }
-            })
-        }
-        async function getData() {
-            const xs = [];
-            const ys = [];
+    <select id="dropdown">
+        <option value="">Select player</option>
+    </select>
 
-            const response = await fetch('test_golf_data_2.json');
-            const dat = await response.text();
+    <div id="canvas-container">
+       <canvas id="chart" width="200" height="200"></canvas>
+    </div>
 
-            const table = data.split('\n').slice(0);
-            table.forEach(row => {
-                const columns = row.split(',');
-                const golfData[];
-            }); (property)xs: any[]
-            return { xs, ys };
-                
-        });
 
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://github.com/Tsmoore002900/Project_Par_3/blob/main/static/js/chart2.jss"></script>
+
 
     <div id="plot"></div>
-    <script src="films.js"></script>
-    <script src="plots.js"></script>
-    <script src="refactored.js"></script>
+
+    <!-- <script src="refactored.js"></script>-->
 
 
 </body>
