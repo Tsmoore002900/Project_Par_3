@@ -33,7 +33,7 @@ function createBarChart(data) {
     const canvasContainer = document.getElementById("canvas-container");
     canvasContainer.innerHTML = "";
 
-    const canvasHTML = `<canvas id="chart" width="200" height="200"></canvas>`;
+    const canvasHTML = `<canvas id="chart" width="200" height="100"></canvas>`;
 
     canvasContainer.insertAdjacentHTML("afterbegin",canvasHTML );
 
@@ -45,14 +45,14 @@ function createBarChart(data) {
     let dataValues = [];
 
     Object.keys(data).forEach((k, i) => {
-        if (i != 0) {
+        if (i > 1) {
             labels.push(k);
         }
     })
 
 
     Object.values(data).forEach((v, i) => {
-        if (i != 0) {
+        if (i > 1) {
             dataValues.push(v);
         }
     });
@@ -67,10 +67,30 @@ function createBarChart(data) {
         data: {
             labels: labels,
             datasets: [{
-                label: 'merged_golf_data.json',
+                label: ('playerSelect'),
                 data: dataValues,
-                backgroundColor: 'rgba(54, 162, 235, 0.2)',
-                borderColor: 'rgba(54, 162, 235, 1)',
+                backgroundColor: [
+                    'rgba(0, 99, 132, 0.6)',
+                    'rgba(30, 99, 132, 0.6)',
+                    'rgba(60, 99, 132, 0.6)',
+                    'rgba(90, 99, 132, 0.6)',
+                    'rgba(120, 99, 132, 0.6)',
+                    'rgba(150, 99, 132, 0.6)',
+                    'rgba(180, 99, 132, 0.6)',
+                    'rgba(210, 99, 132, 0.6)',
+                    'rgba(240, 99, 132, 0.6)'
+                ],
+                borderColor: [
+                    'rgba(0, 99, 132, 1)',
+                    'rgba(30, 99, 132, 1)',
+                    'rgba(60, 99, 132, 1)',
+                    'rgba(90, 99, 132, 1)',
+                    'rgba(120, 99, 132, 1)',
+                    'rgba(150, 99, 132, 1)',
+                    'rgba(180, 99, 132, 1)',
+                    'rgba(210, 99, 132, 1)',
+                    'rgba(240, 99, 132, 1)'
+                ],
                 borderWidth: 1
             }]
         },
