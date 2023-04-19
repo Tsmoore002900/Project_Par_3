@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bar Chart Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <canvas id="myChart"></canvas>
+    <script>
+        const top10 = [310.566667];
+        const eleven_25 = [303.157143];
+        const twenty6_50 = [298.215789];
+        const fifty1_100 = [299.550000];
+        const over100 = [298.202273];
+        const labels = ['Top Ten', '11-25', '26-50', '51-100', 'Over 100'];
+        
+        const data = {
+            labels: labels,
+            datasets: [
+                {
+                    label: 'Yards',
+                    data: [top10[0], eleven_25[0], twenty6_50[0], fifty1_100[0], over100[0]],
+                    backgroundColor: ['darkred', 'green', 'blue', 'orange', 'gold']
+                }
+            ]
+        };
+        
+        const config = {
+            type: 'bar',
+            data: data,
+            options: {
+                scales: {
+                    y: {
+                        min: 290,
+                        max: 315
+                    }
+                },
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Driving Distance By Ranking'
+                    }
+                }
+            }
+        };
+        
+        const myChart = new Chart(
+            document.getElementById('myChart'),
+            config
+        );
+    </script>
+</body>
+</html>
