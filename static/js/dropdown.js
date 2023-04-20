@@ -26,7 +26,7 @@ function init() {
 };
 
 // Display the sample Data.
-function buildMetaData() {
+function buildMetaData(sample) {
     d3.json(url3).then((data) => {
         let metadata = data.data;
         let value = metadata;
