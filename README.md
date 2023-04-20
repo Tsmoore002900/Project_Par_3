@@ -45,7 +45,7 @@ The Golfer that hits the ball the farthest, has a good scrambing percentage and 
 •	Created the layout for the HTML file.
 
 # Nick Leisenring 
-•	(insert file/files name and path to it here) used the rankings ranges to create line graphs (insert more explanation here). 
+•	Created GolfChart pngs and the GolfChart.ipynb by using rankings ranges to create line graphs. We are able to compare groupings of the world golf rankings and determine which factors separate the best in the world. 
 
 # Out Side Help and Sources
 https://www.kaggle.com/datasets/ddho22/pga-tour-statistics?select=data.csv
