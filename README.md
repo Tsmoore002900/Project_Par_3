@@ -25,6 +25,7 @@ The Golfer that hits the ball the farthest, has a good scrambing percentage and 
 
 # Cameron Pulling 
 •	Created Golf Data Cleaned.ipynb where the data was cleaned and merged with the World Gold Ranking from CBS. 
+
 •	The data was then broken down into the ranking ranges 1-10, 11-25, 26-50, 51-100, and 100+ to better find trends among the groups of gilfers.
 •	Created the Driving Distance Bar Chart
 •	Created the Power Point Presentation
