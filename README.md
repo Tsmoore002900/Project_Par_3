@@ -50,4 +50,5 @@ The Golfer that hits the ball the farthest, has a good scrambing percentage and 
 # Out Side Help and Sources
 https://www.kaggle.com/datasets/ddho22/pga-tour-statistics?select=data.csv
 https://www.cbssports.com/golf/rankings/ 
-[insert any help you got and it source]
+https://www.codementor.io/login-experts
+https://chat.openai.com/
