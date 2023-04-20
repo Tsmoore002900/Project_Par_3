@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Pro Golfs Best and The Rest</title>
+
+
+    <!---  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.2.1/chart.min.js"
+
+
+      <script src="https://d3js.org/d3.v5.min.js"> -->
+
+</head>
+<body>
+    <div class="jumbotron" style="text-align:center">
+        <img style="background-image; src="static/image001.jpg"
+        <h1>Welcome to Pro Golfs Best and The Rest</h1>
+        <p>Explore the world of golf with us</p>
+    </div>
+
+    <div style="margin: 0px; background: #0e0e0e; height: 100%">
+
+        div {
+        background-image: url('https://thumbs.dreamstime.com/b/golf-ball-tee-golf-green-course-background-golf-ball-tee-golf-green-course-background-copy-space-129974760.jpgg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        color: #FFFFFF;
+        }
+        <!--<img style="display: block;
+     -webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);
+     transition: background-color 300ms;"
+    src="https://thumbs.dreamstime.com/b/golf-ball-tee-golf-green-course-background-golf-ball-tee-golf-green-course-background-copy-space-129974760.jpg">-->
+    </div>
+    <script src="merged_golf_data.json"></script>
+    <script src="static/js/app.js"></script>
+    <script src="static/js/dropdown.js"></script>
+
+
+
+
+    <select id="dropdown">
+        <option value="">Select player</option>
+    </select>
+    <div class="col-md-10">
+        <div id="canvas-container">
+            <img style="display: block;
+              -webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);
+              transition: background-color 300ms;"
+                 src="https://thumbs.dreamstime.com/b/golf-ball-tee-golf-green-course-background-golf-ball-tee-golf-green-course-background-copy-space-129974760.jpg"><canvas id="chart" class="chart chart-bar" data="data" labels="labels" legend="true" series="series" options="{showTooltips: false}" colours="[ { fillColor: 'transparent' }]"></canvas>
+
+        </div>
+
+    <div class="col-md-10">
+        <img src="https://raw.githubusercontent.com/Tsmoore002900/Project_Par_3/main/GolfChart.png" alt="Golf Chart">
+           
+        </div>
+
+    <div class="col-md-4">
+        <img src="https://raw.githubusercontent.com/Tsmoore002900/Project_Par_3/main/Average_drive_distance.png" alt="Average Drive Distance">
+
+    </div>
+            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+            <script src="static/js/chart.js"></script>
+
+
+            <div id="plot"></div>
+
+            <!-- <script src="refactored.js"></script>-->
+
+
+</body>
+
+</html>
