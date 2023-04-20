@@ -27,18 +27,25 @@ The Golfer that hits the ball the farthest, has a good scrambing percentage and 
 •	Created Golf Data Cleaned.ipynb where the data was cleaned and merged with the World Gold Ranking from CBS. 
 
 •	The data was then broken down into the ranking ranges 1-10, 11-25, 26-50, 51-100, and 100+ to better find trends among the groups of gilfers.
+
 •	Created the Driving Distance Bar Chart
+
 •	Created the Power Point Presentation
 
 # Trevor Moore 
 •	Set up the GitHub repository 
+
 •	Updated the ReadMe 
+
 •	Convert that data to a json file
+
 # Vincent Elequin 
-•	using (insert file/files name and path to it here) created a drop-down menu to select the golfer of your choice with an interactive bar graph displaying all the golfers values except Driving Distance. 
+•	using (insert file/files name and path to it here) created a drop-down menu to select the golfer of your choice with an interactive bar graph displaying all the golfers values except Driving Distance.
+
 •	Created the layout for the HTML file.
+
 # Nick Leisenring 
-•	(insert file/files name and path to it here) used the rankings ranges to create line graphs (insert more explanation here). Cameron Pulling. 
+•	(insert file/files name and path to it here) used the rankings ranges to create line graphs (insert more explanation here). 
 
 # Out Side Help and Sources
 https://www.kaggle.com/datasets/ddho22/pga-tour-statistics?select=data.csv
